@@ -19,7 +19,7 @@ public class CouponsManager {
 		// ...
 	}
 
-	public Double validaCupom(String coupon) {
+	public Double validateCoupons(String coupon) {
 		return this.coupons.get(coupon);
 	}	
 }
