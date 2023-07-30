@@ -7,8 +7,8 @@ public class Author {
 	private String cpf;
 	
 	public void showDetails() {
-		System.out.println("Mostrando detalhes do autor ");
-		System.out.println("Nome: " + name);
+		System.out.println("Showing Author Details");
+		System.out.println("Name: " + name);
 		System.out.println("Email: " + email);
 		System.out.println("CPF: " + cpf);
 	}
